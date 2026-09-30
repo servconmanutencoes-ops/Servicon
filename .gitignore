@@ -2,8 +2,7 @@ node_modules/
 .next/
 out/
 *.tsbuildinfo
-.env
-.env.*
-!.env.example
 .neon
 .vercel
+.env*
+!.env.example

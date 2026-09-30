@@ -3,8 +3,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Servicon Arquivos",
-  description: "Envio seguro de imagens para o armazenamento da Servicon.",
+  title: "Servcon Facility | Portal de Gestão",
+  description: "Portal da equipe Servcon para gestão de despesas e operações.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
