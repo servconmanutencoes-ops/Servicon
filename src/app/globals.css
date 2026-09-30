@@ -60,9 +60,9 @@ a { color: inherit; }
 .company-facts { display: flex; flex-wrap: wrap; gap: 9px; margin: 0; padding: 0; list-style: none; }
 .company-facts li { padding: 9px 13px; border: 1px solid rgba(17,17,20,.15); border-radius: 99px; background: rgba(255,255,255,.58); font-size: .74rem; font-weight: 700; }
 
-.mascot-scene { position: absolute; left: -15px; bottom: -22px; width: min(670px, 96%); height: 270px; }
+.mascot-scene { position: absolute; left: -4px; bottom: -22px; width: min(620px, 96%); height: 310px; }
 .mascot-sprite {
-  position: absolute; left: 0; bottom: 0; width: 475px; height: 245px;
+  position: absolute; left: 0; bottom: 0; width: 205px; height: 310px;
   background: url("/brand/douglas-login-sprite.png") 0 50% / 400% 100% no-repeat;
   filter: drop-shadow(0 18px 18px rgba(17,17,20,.18));
   animation: douglas-poses 8s steps(1, end) infinite, mascot-bob 2.2s ease-in-out infinite;
@@ -74,8 +74,8 @@ a { color: inherit; }
   81%, 100% { background-position: 100% 50%; }
 }
 @keyframes mascot-bob { 0%, 100% { transform: translateY(0) rotate(-.4deg); } 50% { transform: translateY(-5px) rotate(.4deg); } }
-.speech-bubble { position: absolute; z-index: 2; left: 322px; top: 8px; padding: 12px 17px; border-radius: 16px 16px 16px 3px; color: white; background: var(--ink); font: 800 1.02rem/1.1 "Barlow Condensed", sans-serif; letter-spacing: .02em; transform: rotate(-2deg); box-shadow: 6px 7px 0 var(--yellow); }
-.mascot-caption { position: absolute; left: 445px; bottom: 35px; width: 210px; padding-left: 18px; border-left: 3px solid var(--red); color: #53535a; font-size: .78rem; line-height: 1.45; }
+.speech-bubble { position: absolute; z-index: 2; left: 170px; top: 26px; padding: 12px 17px; border-radius: 16px 16px 16px 3px; color: white; background: var(--ink); font: 800 1.02rem/1.1 "Barlow Condensed", sans-serif; letter-spacing: .02em; transform: rotate(-2deg); box-shadow: 6px 7px 0 var(--yellow); }
+.mascot-caption { position: absolute; left: 300px; bottom: 35px; width: 210px; padding-left: 18px; border-left: 3px solid var(--red); color: #53535a; font-size: .78rem; line-height: 1.45; }
 .mascot-caption span { display: block; margin-bottom: 3px; color: var(--red); font-size: .63rem; font-weight: 900; letter-spacing: .14em; }
 
 .login-panel { position: relative; width: 100%; max-width: 510px; justify-self: end; padding: clamp(34px, 4.5vw, 58px); background: #fff; border: 1px solid rgba(17,17,20,.1); box-shadow: 0 28px 75px rgba(17,17,20,.16); }
@@ -134,9 +134,9 @@ a { color: inherit; }
   .hero-copy { align-self: auto; padding-bottom: 185px; }
   .hero-copy h1 { font-size: clamp(3.25rem, 14vw, 5.7rem); }
   .hero-intro { margin-top: 22px; }
-  .mascot-scene { bottom: -18px; height: 205px; }
-  .mascot-sprite { width: 390px; height: 200px; left: -25px; }
-  .speech-bubble { left: 250px; top: 0; font-size: .9rem; }
+  .mascot-scene { bottom: -18px; height: 230px; }
+  .mascot-sprite { width: 152px; height: 230px; left: 0; }
+  .speech-bubble { left: 130px; top: 5px; font-size: .9rem; }
   .login-panel { max-width: none; justify-self: auto; }
   .site-footer { flex-direction: column; align-items: flex-start; min-height: auto; }
 }
@@ -146,8 +146,8 @@ a { color: inherit; }
   .hero-copy { padding-bottom: 165px; }
   .hero-copy h1 { font-size: clamp(3rem, 16vw, 4.4rem); }
   .overline { font-size: .63rem; letter-spacing: .11em; }
-  .mascot-sprite { width: 330px; height: 170px; }
-  .speech-bubble { left: 205px; max-width: 145px; top: -3px; }
+  .mascot-sprite { width: 140px; height: 211px; }
+  .speech-bubble { left: 120px; max-width: 155px; top: 2px; }
   .login-panel { padding: 34px 25px 30px 31px; }
   .panel-footer { flex-direction: column; }
 }
